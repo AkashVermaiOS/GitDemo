@@ -25,7 +25,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnAction(_ sender: Any) {
-        print("yes please")
+        print("yes please whats going on")
+        
     }
     
 }
