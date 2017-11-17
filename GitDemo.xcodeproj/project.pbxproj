@@ -13,6 +13,8 @@
 		971C807C1FBEBEB300F78AC2 /* GitDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 971C807A1FBEBEB300F78AC2 /* GitDemo.xcdatamodeld */; };
 		971C807E1FBEBEB300F78AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971C807D1FBEBEB300F78AC2 /* Assets.xcassets */; };
 		971C80811FBEBEB300F78AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971C807F1FBEBEB300F78AC2 /* LaunchScreen.storyboard */; };
+		971C808A1FBEC2DE00F78AC2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C80881FBEC2DE00F78AC2 /* TableViewCell.swift */; };
+		971C808B1FBEC2DE00F78AC2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971C80891FBEC2DE00F78AC2 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		971C807D1FBEBEB300F78AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		971C80801FBEBEB300F78AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		971C80821FBEBEB300F78AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971C80881FBEC2DE00F78AC2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		971C80891FBEC2DE00F78AC2 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				971C807F1FBEBEB300F78AC2 /* LaunchScreen.storyboard */,
 				971C80821FBEBEB300F78AC2 /* Info.plist */,
 				971C807A1FBEBEB300F78AC2 /* GitDemo.xcdatamodeld */,
+				971C80881FBEC2DE00F78AC2 /* TableViewCell.swift */,
+				971C80891FBEC2DE00F78AC2 /* TableViewCell.xib */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				971C80811FBEBEB300F78AC2 /* LaunchScreen.storyboard in Resources */,
+				971C808B1FBEC2DE00F78AC2 /* TableViewCell.xib in Resources */,
 				971C807E1FBEBEB300F78AC2 /* Assets.xcassets in Resources */,
 				971C80791FBEBEB300F78AC2 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				971C80761FBEBEB300F78AC2 /* ViewController.swift in Sources */,
+				971C808A1FBEC2DE00F78AC2 /* TableViewCell.swift in Sources */,
 				971C807C1FBEBEB300F78AC2 /* GitDemo.xcdatamodeld in Sources */,
 				971C80741FBEBEB300F78AC2 /* AppDelegate.swift in Sources */,
 			);
