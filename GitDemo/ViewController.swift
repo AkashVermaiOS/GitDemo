@@ -15,8 +15,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("yes")
-        let img : UIImage = #imageLiteral(resourceName: <#T##String#>)
-        let str = "test it"
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,8 +23,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnAction(_ sender: Any) {
-        print("yes please whats going on")
-        
+        print("yes please")
     }
     
 }
